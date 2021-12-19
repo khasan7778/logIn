@@ -13,6 +13,7 @@
 		585F57CB276996CD00E9519E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585F57C9276996CD00E9519E /* Main.storyboard */; };
 		585F57CD276996CE00E9519E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 585F57CC276996CE00E9519E /* Assets.xcassets */; };
 		585F57D0276996CE00E9519E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585F57CE276996CE00E9519E /* LaunchScreen.storyboard */; };
+		58936FA2276F6DFB00C6C96B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58936FA1276F6DFB00C6C96B /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		585F57CC276996CE00E9519E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		585F57CF276996CE00E9519E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		585F57D1276996CE00E9519E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58936FA1276F6DFB00C6C96B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				585F57C7276996CD00E9519E /* LoginViewController.swift */,
+				58936FA1276F6DFB00C6C96B /* WelcomeViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				585F57C8276996CD00E9519E /* LoginViewController.swift in Sources */,
+				58936FA2276F6DFB00C6C96B /* WelcomeViewController.swift in Sources */,
 				585F57C4276996CD00E9519E /* AppDelegate.swift in Sources */,
 				585F57C6276996CD00E9519E /* SceneDelegate.swift in Sources */,
 			);
